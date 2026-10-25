@@ -22,7 +22,8 @@ A small command-line chatbot built on the Gemini API (`google-genai` SDK) that c
 ## Setup
 
 ```bash
-git clone <https://github.com/nmf-wasi/llm-cli-chatbot>
+git clone https://github.com/nmf-wasi/llm-cli-chatbot.git
+cd llm-cli-chatbot
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
